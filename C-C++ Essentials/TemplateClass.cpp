@@ -29,9 +29,9 @@ T Arithametic<T>::sub() {
 
 int main()
 {
- Arithametic ar(15,10);
+ Arithametic<int> ar(15,10);
  cout<<"int : "<<ar.add()<<", int sub: "<<ar.sub()<<endl;
- Arithametic arF(15.2,12.4);
+ Arithametic<float> arF(15.2,12.4);
  cout<<"Float : "<<arF.add()<<", Float sub: "<<arF.sub()<<endl;
 
 }
